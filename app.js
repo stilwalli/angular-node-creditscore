@@ -11,7 +11,7 @@ var express = require('express')
 
 var app = express();
 //something here
-// all environments
+// all environments //Demo
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
